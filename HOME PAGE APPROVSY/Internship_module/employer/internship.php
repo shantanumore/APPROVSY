@@ -105,7 +105,7 @@
               </div>
               <!-- Name of Company -->
               <div class="md-form">
-                <input type="text" id="nameOfCompany" name="nameOfCompany" class="form-control" value="<?=$emp_name;?>" required>
+                <input type="text" id="nameOfCompany" name="nameOfCompany" class="form-control"  required>
                 <label for="nameOfCompany">Name of Company</label>
               </div>
               <!-- About Company -->
@@ -191,7 +191,7 @@
                 <td>
                   <a href="internship.php?delete=<?=$internship['id'];?>"><i class="fas fa-trash"></i></a>
                 </td>
-                <td class="text-center"><?=$emp_name;?></td>
+                <td class="text-center"><?=$internship['nameOfCompany'];?></td>
                 <td class="text-center"><?=$internship['location'];?></td>
                 <td class="text-center"><?=$internship['duration'];?></td>
                 <td class="text-center"><?=$internship['stipend'];?></td>
