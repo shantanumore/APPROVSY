@@ -3,13 +3,13 @@
 ?>
 <div class="container-fluid p-2">
 	<div class="card">
-		<div class="card-header">
-			<h3 class="h3-responsive p-2 text-center">Delete Account?</h3>
+		<div class="card-header warning-color">
+			<h3 class="h3-responsive p-2 text-center"><b>Delete Account?<b></h3>
 		</div>
 		<div class="card-body">
 			<div class="container-fluid">
 				<div class="">
-					<p class="lead text-center">You won't be able to reap the benefits of offers and discounts on our products anymore. Do you really want to delete your account
+					<p class="lead text-center">Once you delete your account, there's no getting it back. Do you really want to delete your account
 				</div>
 				<form class="p-3 grey-text" method="post" action="" enctype="multipart/form-data">
 					<div class="text-center mt-4 float-left">

@@ -45,7 +45,7 @@
         <ul class="navbar-nav ml-auto nav-flex-icons">
           
           <li class="nav-item">
-          <a class="nav-link " href="" style="font-size:20px;font-weight:400">Internship Portal</a>
+          <a class="nav-link " href="../index.php" style="font-size:20px;font-weight:400">Internship Portal</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link waves-effect waves-light">

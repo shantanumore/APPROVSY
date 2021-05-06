@@ -4,11 +4,11 @@
   include('includes/header.php');
 ?>
 
-<h2 class="text-center">Employer Registration</h2>
+<h2 class="text-center"><b>Faculty Registration<b></h2>
 <div class="container-fluid p-2">
 	<div class="card">
 		<div class="card-header">
-			<h3 class="h3-responsive p-2 text-center">Registration Form</h3>
+			<h3 class="h3-responsive p-2 text-center"><b>Registration Form<b></h3>
 		</div>
 		<div class="card-body">
 			<div class="container-fluid">
@@ -17,11 +17,11 @@
 						<div class="col-md-6">
 							<div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
 				              <input type="text" id="nameOfCompany" class="form-control form-control-sm" name="nameOfCompany">
-				              <label for="nameOfCompany">Company Name</label>
+				              <label for="nameOfCompany">Faculty Name</label>
 				            </div>
 				            <div class="md-form form-sm"> <i class="fa fa-user prefix"></i>
 				              <input type="text" id="aboutCompany" class="form-control form-control-sm" name="aboutCompany">
-				              <label for="aboutCompany">About Company</label>
+				              <label for="aboutCompany">Faculty Department</label>
 				            </div>
 				            <div class="md-form form-sm"> <i class="fa fa-envelope prefix"></i>
 				              <input type="email" id="email" class="form-control form-control-sm" name="email">

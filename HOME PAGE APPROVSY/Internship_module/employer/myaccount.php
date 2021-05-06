@@ -34,7 +34,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Internship Backend</title>
+  <title>APPROVSY-INTERNSHIP PORTAL</title>
+  <link href="../../assets/images/check.png" rel="icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -73,18 +74,18 @@
           if(!isset($_GET['delete_account'])){
             echo 
             "<div class='card'>
-                <div class='card-header'>
-                  <h3 class='h3-responsive p-2'>Hello $emp_name</h3>
+                <div class='card-header '>
+                  <h3 class='h3-responsive p-2'><b>Hello $emp_name !<b></h3>
                 </div>
                 <div class='card-body table-responsive'>
                   <table class='table table-striped table-condensed' style='display: table'>
                     
                     <tr>
-                      <th><b>Company Name: </b></th>
+                      <th><b>Faculty Name: </b></th>
                       <td>$emp_name</td>
                     </tr>
                     <tr>
-                      <th><b>About Company: </b></th>
+                      <th><b>Faculty Department: </b></th>
                       <td>$emp_about</td>
                     </tr>
                     <tr>
