@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Internship Backend</title>
+  <title>APPROVSY-admin</title>
+  <link href="../../assets/images/check.png" rel="icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
   <!-- Bootstrap core CSS -->
@@ -20,8 +21,8 @@
 <body>
   <header>
     <!--Navbar -->
-    <nav class="mb-1 navbar navbar-expand-lg navbar-dark default-color">
-      <a class="navbar-brand" href="index.php">Admin</a>
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient">
+      <a class="navbar-brand" href="index.php"  style="font-size:30px;font-weight:bold" >Admin Portal</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -29,26 +30,26 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.php">Applications</a>
+            <a class="nav-link" href="index.php" style="font-size:19px;" ><b>Applications</b></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="internship.php">Internships</a>
+            <a class="nav-link" href="internship.php" style="font-size:19px;" ><b>Internships<b></a>
           </li>
           <?php 
             if(!isset($_SESSION['email'])){
               
             }
             else{
-              echo "<li class='nav-item'><a href='logout.php' class='nav-link' style='border-radius: 10em;'>Logout</a></li>";
+              echo "<li class='nav-item'><a href='logout.php' class='nav-link' style='border-radius: 10em; font-size:19px ;'>Logout</a></li>";
             }
           ?>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link waves-effect waves-light">
               <i class="fab fa-twitter"></i>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a class="nav-link waves-effect waves-light">
               <i class="fab fa-google-plus-g"></i>

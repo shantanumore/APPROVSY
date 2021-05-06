@@ -5,9 +5,9 @@
 ?>
 
 <div class="container p-3">
-	<div class="card">
-		<div class="card-header">
-			<h3 class="p-2 h3-responsive">Login here!</h3>
+	<div class="card ">
+		<div class="card-header white-text blue-gradient">
+			<h3 class="p-2 h3-responsive" style="font-weight: 400; margin-top:15px">Admin Login!</h3>
 		</div>
 		<form action="" method="post">
 			<div class="card-body">

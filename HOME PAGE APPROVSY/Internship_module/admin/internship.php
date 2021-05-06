@@ -10,7 +10,7 @@
     }else{
 ?>
   <main>
-    <h2 class="text-center p-3">Internship(s) Posted by Companies</h2>
+    <h2 class="text-center p-3">Internship(s) Posted by Faculties</h2>
       <div class="container-fluid table-responsive">  
         <table class="table table-striped table-bordered" style="display: table;">
           <thead>
@@ -32,7 +32,7 @@
             <?php while($internship = mysqli_fetch_assoc($internships)):?>
               <tr>
                 <td>
-                  <a href="details.php?internship=<?=$internship['id'];?>"><i class="fas fa-edit"></i></a>
+                  <a href="details.php?internship=<?=$internship['id'];?>"><i class="fas fa-eye"></i></a>
                 </td>
                 <td class="text-center"><?=$internship['nameOfCompany'];?></td>
                 <td class="text-center"><?=$internship['location'];?></td>
