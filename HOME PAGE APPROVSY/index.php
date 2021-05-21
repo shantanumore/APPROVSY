@@ -54,7 +54,7 @@
     <header class="foi-header landing-header">
         <div class="container">
             <nav class="navbar navbar-expand-lg navbar-light foi-navbar">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="index.php">
                     <img src="assets/images/svvvlogo.png" height="100px" width="100px" alt="FOI">
                 </a>
                
@@ -63,8 +63,8 @@
             <div class="header-content">
                 <div class="row">
                     <div class="col-md-5">
-                        <h1>PROJECT MANAGEMENT AND INTERNSHIP INFORMATION SYSTEM</h1>
-                        <p class="text-dark">a system built to automate the process of collecting, reviewing and managing applications for internships, approve it as well as managing the throughout lifecycle of a project submission.</p>
+                        <h1>PROJECT APPROVAL AND INTERNSHIP INFORMATION PORTAL</h1>
+                        <p class="text-dark">A Portal built to automate the process of collecting, reviewing and managing applications for internships, approve it as well as managing the throughout lifecycle of a project submission.</p>
                         <div id=welcome_container>
                             <b style='color:#FE1918;'>&lt APPROVSY &gt</b>
                         </div>
@@ -85,18 +85,18 @@
         </div>
     </header>
 
-    <!-- <footer class="foi-footer text-white">
+    <footer class="foi-footer text-white">
         <div class="container">
             <div class="row footer-content">
                 <div class="col-xl-6 col-lg-7 col-md-8">
-                    <h2 class="mb-0">Do you want to know more or just have a question? write to us.</h2>
+                    <h2 class="mb-0">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h2>
                 </div>
                 <div class="col-md-4 col-lg-5 col-xl-6 py-3 py-md-0 d-md-flex align-items-center justify-content-end">
-                    <a href="contact.html" class="btn btn-danger btn-lg">Contact form</a>
+                    <a href="https://svvv.edu.in/" class="btn btn-danger btn-lg">svvv.edu.in</a>
                 </div>
             </div>
             <div class="row footer-widget-area">
-                <div class="col-md-3">
+                <!-- <div class="col-md-3">
                     <div class="py-3">
                         <img src="assets/images/logo-white.svg" alt="FOI">
                     </div>
@@ -105,8 +105,8 @@
                         <button class="btn btn-app-download mr-2"><img src="assets/images/ios.svg" alt="App store"></button>
                         <button class="btn btn-app-download"><img src="assets/images/android.svg" alt="play store"></button>
                     </div>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
+                </div> -->
+                <!-- <div class="col-md-3 mt-3 mt-md-0">
                     <nav>
                         <ul class="nav flex-column">
                             <li class="nav-item">
@@ -126,8 +126,8 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
-                <div class="col-md-3 mt-3 mt-md-0">
+                </div> -->
+                <!-- <div class="col-md-3 mt-3 mt-md-0">
                     <nav>
                         <ul class="nav flex-column">
                             <li class="nav-item">
@@ -147,10 +147,10 @@
                             </li>
                         </ul>
                     </nav>
-                </div>
+                </div> -->
                 <div class="col-md-3 mt-3 mt-md-0">
                     <p>
-                        &copy; foi. 2020 <a href="https://www.bootstrapdash.com/" target="_blank" rel="noopener noreferrer" class="text-reset">BootstrapDash</a>.
+                        &copy; Approvsy 2021 <a href="https://svvv.edu.in/" target="_blank" rel="noopener noreferrer" class="text-reset">SVVV</a>.
                     </p>
                     <p>All rights reserved.</p>
                     <nav class="social-menu">
@@ -162,7 +162,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script src="assets/vendors/jquery/jquery.min.js"></script>
     <script src="assets/vendors/popper.js/popper.min.js"></script>
     <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
