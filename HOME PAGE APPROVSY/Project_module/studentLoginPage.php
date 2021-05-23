@@ -37,7 +37,7 @@ if($isEmailVerified==="N")
     <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Main css -->
-    <link rel="stylesheet" href="/minor/assets/registration_css/style.css">
+    <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/registration_css/style.css">
     <style type="text/css">
         .invalid
         {
