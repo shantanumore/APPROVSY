@@ -65,9 +65,9 @@
                         <img src="assets\images\loginpage.png" alt="app" width="500px" class="img-fluid">
                     </div>
                     <div class="col-md-3" >
-                        <a style="margin-bottom: 50px; margin-top: 50px; margin-left: 55px;" href="projectApprovalSystem\studentLoginPage.php" class="btn btn-danger btn-lg" >STUDENT LOGIN</a>
+                        <a style="margin-bottom: 50px; margin-top: 50px; margin-left: 55px;" href="Project_module\studentLoginPage.php" class="btn btn-danger btn-lg" >STUDENT LOGIN</a>
 
-                        <a style="margin-left: 55px;" href="projectApprovalSystem\facultyLogin.php" class="btn btn-danger btn-lg" >FACULTY LOGIN</a>
+                        <a style="margin-left: 55px;" href="Project_module\facultyLogin.php" class="btn btn-danger btn-lg" >FACULTY LOGIN</a>
                     </div>
                     
                 </div>
