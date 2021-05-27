@@ -79,7 +79,7 @@ if($isEmailVerified==="N")
     </script>
 
 </head>
-<body style="background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Purple-Modern-Pattern-Simple-Background-Image.jpg)">
+<body style="background-image: url()">
 <!-- assets/images/signup-bg-1.jpg -->
     <div >
 <!-- <video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
