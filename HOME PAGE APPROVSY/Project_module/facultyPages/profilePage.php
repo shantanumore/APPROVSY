@@ -16,8 +16,8 @@ $abc=$_SESSION["username"];
                 <div class="col-lg-2"></div>
             	<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div class="card" style="height:auto;">
-                        <div class="header bg-blue-grey" style="text-align: center;">
-                           <img src="/projectApprovalSystem/image/<?php echo $_SESSION["username"]["image"]; ?>"  width="120" height="150" style="border: 5px solid black"  alt="User" />
+                        <div class="header " style="text-align: center; background-color: #BE9CFF;">
+                           <img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/<?php echo $_SESSION["username"]["image"]; ?>"  width="120" height="150" style="border: 3px solid ; border-color: purple;"  alt="User" />
 
                                 <br/>
                             <h2>

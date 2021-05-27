@@ -105,7 +105,7 @@ include 'sidebar.php';
                                     <td><input type="text" name="confirmPassword" id="confirmPassword"></td>
                                 </tr>
                                 <tr class="row">
-                                    <td colspan="3" align="center"><input type="submit" class="btn btn-primary" style="padding-left: 50px;padding-right: 50px;padding-top: 10px;padding-bottom: 10px;font-size: 30px;"></td>
+                                    <td colspan="3" align="center"><input type="submit" class="btn " style="padding-left: 30px;padding-right: 30px;padding-top: 20px;padding-bottom: 20px;font-size: 25px; background-color: #BE9CFF; font-weight:bold;"></td>
                                 </tr>
                             </table>
                         </form>

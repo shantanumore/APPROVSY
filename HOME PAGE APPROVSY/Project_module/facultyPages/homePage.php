@@ -8,19 +8,19 @@ include 'sidebar.php';
             <div class='form-row'>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                     <div class="card" style="height:600px;">
-                        <div class="header bg-blue-grey">
+                        <div class="header" style="background-color: #BE9CFF;">
                             <h2 style="text-align:center;">
-                               About Project Approval System
+                               <b>About Project Approval System</b>
                             </h2>
                         </div>
                         <marquee class="marq" bgcolor = "" direction = "up" loop="true" height="500px" style="padding-left: 15px;padding-right: 20px;border-spacing: 5px;">
-                        <div style="text-align: center;font-style: italic;font-family: cursive;border-bottom: 1px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">        
+                        <div style="text-align: center;font-style:;font-family: roboto;border-bottom: 1px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">        
                             <p >
                         In<br>
-                        <h6 style="color: green;">PROJECT APPROVAL SYSTEM </h6><br>
-                        we hava focus <br>
-                        on automating the process of <b style="color:blue;">project submission.</b><br> 
-                        In the<br> 
+                        <h4 style="color: orange;">PROJECT APPROVAL SYSTEM </h4><br>
+                        we have focused
+                        on automating the process of <b >project submission.</b><br><br>
+                        In the
                         sense project students can submit their project documents like <b>synopsis</b><br>
                         and other documents online to their assigned faculty and <br>
                         faculty can read their documents and make decisions according and <br>
@@ -39,9 +39,9 @@ include 'sidebar.php';
 
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                      <div class="card" style="height: 600px;">
-                        <div class="header bg-blue-grey">
+                        <div class="header" style="background-color: #BE9CFF;" >
                             <h2 style="text-align: center;">
-                                CONTACT US
+                                <b>Announcements</b>
                             </h2>
                         </div>
                         <marquee class="marq" bgcolor = "" direction = "up" loop="true" height="500px" style="padding-left: 15px;padding-right: 20px;border-spacing: 5px;">
@@ -55,7 +55,7 @@ include 'sidebar.php';
                     Thanking You.
                          <p><div class="cont">
                         <p style="text-align: center; font-size: 20px;">
-                     &nbsp;&nbsp;<img src="/projectApprovalSystem/image/phone.png"  style="width:25px; height:25px;">
+                     &nbsp;&nbsp;<img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/phone.png"  style="width:25px; height:25px;">
                      Contact Me: +919074977013 </p>
                     </div>
                     </div>

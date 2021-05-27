@@ -22,7 +22,7 @@ echo $numberOfRows;
                             </h2>
                             </div>
                         <div class="body">
-                            <form action="/projectApprovalSystem/studentPages/uploadImage.php" id="frmFileUpload" method="post" enctype="multipart/form-data">
+                            <form action="/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/uploadImage.php" id="frmFileUpload" method="post" enctype="multipart/form-data">
                                 <?php
                                 $i=1;
                                 while($i<=$numberOfRows)

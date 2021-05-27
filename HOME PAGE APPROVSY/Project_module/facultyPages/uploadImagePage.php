@@ -16,7 +16,7 @@ include 'sidebar.php';
                             </h2>
                             </div>
                         <div class="body">
-                            <form action="/projectApprovalSystem/facultyPages/uploadImage.php" id="frmFileUpload" method="post" enctype="multipart/form-data">
+                            <form action="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyPages/uploadImage.php" id="frmFileUpload" method="post" enctype="multipart/form-data">
                                 <div class="row clearfix">
                                     <div class="col-lg-12 col-md-3 col-sm-3 col-xs-6">
                                         <div class="form-group">

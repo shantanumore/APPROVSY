@@ -27,7 +27,7 @@ if(isset($_POST["submit"]))
     	echo "hdadsad";
     $_SESSION["username"]=$row;
 	}
-	header("location:/projectApprovalSystem/facultyPages/uploadImagePage.php");
+	header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyPages/uploadImagePage.php");
 	}
 	else
 	{

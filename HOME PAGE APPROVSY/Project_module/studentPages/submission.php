@@ -31,7 +31,7 @@ if(isset($_POST["submit"]))
 	$affectedRows=mysqli_affected_rows($mysqli);
 	if($affectedRows>=1)
 	{
-		header("location:/projectApprovalSystem/studentPages/submissionPage.php");
+		header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/submissionPage.php");
 	}
 	else
 	{

@@ -26,7 +26,7 @@ $numberOfRows=mysqli_num_rows($res);
                 ?>
                 <div class="col-lg-6 col-md-3 col-sm-6 col-xs-12">
                     <div class="card" style="height:auto;">
-                        <div class="header bg-blue-grey" style="text-align: center;">
+                        <div class="header" style="text-align: center; background-color: #BE9CFF; color:black">
                             <h3>GROUP <?php echo $i; ?></h3>
                         </div>
                         <div class="body">

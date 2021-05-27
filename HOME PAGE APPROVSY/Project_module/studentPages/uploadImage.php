@@ -53,7 +53,7 @@ if(isset($_POST["submit"]))
 	// }
 	$i=$i+1;
 	}
-	header("location:/projectApprovalSystem/studentPages/uploadImagePage.php");
+	header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/uploadImagePage.php");
 
 }
 

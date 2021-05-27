@@ -7562,7 +7562,7 @@ fieldset[disabled] .form-control {
     white-space: nowrap;
     position: relative;
     border-bottom: 1px solid #e9e9e9;
-    background: url("../images/user-img-background.jpg") no-repeat no-repeat;
+    background: url('../images/user-img-background2.jpg') no-repeat no-repeat;
     height: 135px; }
     .sidebar .user-info .image {
       margin-right: 12px;
@@ -7796,6 +7796,7 @@ fieldset[disabled] .form-control {
 /* Sign Up Page ================================ */
 .signup-page {
   background-color: #00BCD4;
+  background: url('../assets/images/signup-bg-1.jpg') no-repeat no-repeat;
   padding-left: 0;
   max-width: 360px;
   margin: 5% auto;

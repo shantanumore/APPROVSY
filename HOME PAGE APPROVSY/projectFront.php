@@ -55,7 +55,15 @@
                 <div class="row">
                     <div class="col-md-5">
                         <h1>PROJECT &nbsp&nbsp&nbsp APPROVAL &nbsp&nbsp&nbsp PORTAL</h1>
-                        <p class="text-dark">LOGIN page</p>
+                        <p class="text-dark"> The portal is based
+                        on automating the process of <b >project submission.</b>
+                        Students can submit their project documents like synopsis
+                        and other documents online to their assigned faculty and 
+                        faculty can read their documents and make decisions according and 
+                        send feedback to student which wil increase faculty - student interaction
+                        online and student should not be mandatory to be present to college for
+                        submission of their project documents<br>
+                     
                         <div id=welcome_container>
                             <!-- <b style='color:#FE1918;'>&lt APPROVSY &gt</b> -->
                         </div>

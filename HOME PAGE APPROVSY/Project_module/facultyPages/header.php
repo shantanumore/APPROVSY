@@ -2,7 +2,7 @@
 session_start();
 if(!$_SESSION["username"])
 {
-    header("location:/projectApprovalSystem/facultyLogin.php");
+    header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyLogin.php");
 }
 ?>
 
@@ -13,7 +13,8 @@ if(!$_SESSION["username"])
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Project Approval System</title>
+    <title>APPROVSY-PROJECT APPROVAL</title>
+    <link href="../../assets/images/check.png" rel="icon">
     <!-- Favicon-->
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -22,35 +23,35 @@ if(!$_SESSION["username"])
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap Core Css -->
-    <link href="/projectApprovalSystem/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/plugins/bootstrap/css/bootstrap.css" rel="stylesheet">
 
     <!-- Waves Effect Css -->
-    <link href="/projectApprovalSystem/assets/plugins/node-waves/waves.css" rel="stylesheet" />
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/plugins/node-waves/waves.css" rel="stylesheet" />
 
     <!-- Animation Css -->
-    <link href="/projectApprovalSystem/assets/plugins/animate-css/animate.css" rel="stylesheet" />
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/plugins/animate-css/animate.css" rel="stylesheet" />
 
     <!-- Morris Chart Css-->
-    <link href="/projectApprovalSystem/assets/plugins/morrisjs/morris.css" rel="stylesheet" />
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/plugins/morrisjs/morris.css" rel="stylesheet" />
 
     <!-- Custom Css -->
-    <link href="/projectApprovalSystem/assets/css/style.css" rel="stylesheet">
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/css/style.css" rel="stylesheet">
 
     <!-- AdminBSB Themes. You can choose a theme from css/themes instead of get all themes -->
-    <link href="/projectApprovalSystem/assets/css/themes/all-themes.css" rel="stylesheet" />
+    <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/css/themes/all-themes.css" rel="stylesheet" />
 
     <!-- Font awesome icons-->
-    <link href='/projectApprovalSystem/assets/css/fontawesome.min.css' rel='stylesheet' />
+    <link href='/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/css/fontawesome.min.css' rel='stylesheet' />
         <script src="assets/plugins/jquery/jquery.min.js"></script>
 
 </head>
 
-<body class="theme-red">
+<body>
     <!-- Page Loader -->
     <div class="page-loader-wrapper">
         <div class="loader">
             <div class="preloader">
-                <div class="spinner-layer pl-red">
+                <div class="spinner-layer pl-purple">
                     <div class="circle-clipper left">
                         <div class="circle"></div>
                     </div>
@@ -78,16 +79,17 @@ if(!$_SESSION["username"])
     </div>
     <!-- #END# Search Bar -->
     <!-- Top Bar -->
-    <nav class="navbar">
+    <nav class="navbar" style="background-color: #6206A8;">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="javascript:void(0);" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="javascript:void(0);" class="bars"></a>
-                <a class="navbar-brand" href="index.html">Faculty Home</a>
+                <a class="navbar-brand"  href="../../index.php" style="font-size:30px;font-weight:bold; color:white;">&ltAPPROVSY&gt</a>
+                
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    
+                <ul class="nav navbar-nav navbar-right" style="padding-top:10px">
+                <a class="navbar-brand" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyPages/homePage.php"  style="font-size:20px;font-weight:400;color:white;" >Faculty Home</a>
                     
                 
                 </ul>

@@ -14,7 +14,7 @@ session_start();
     if(mysqli_num_rows($res)==0)
     {
         $_SESSION["invalidPassword"]=10;
-        header("location:/projectApprovalSystem/studentPages/changePassword.php");
+        header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/changePassword.php");
         return;
     }
     $sql="update student_group set password='".$newPassword."' where email_id='".$currentEmail."'";
@@ -22,11 +22,11 @@ session_start();
     if(mysqli_affected_rows($mysqli)==0)
     {
         $_SESSION["invalidPassword"]=-1;
-        header("location:/projectApprovalSystem/studentPages/changePassword.php");
+        header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/changePassword.php");
     }
     else
     {
         $_SESSION["invalidPassword"]=1;
-                header("location:/projectApprovalSystem/studentPages/changePassword.php");
+                header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentPages/changePassword.php");
     }
 ?>

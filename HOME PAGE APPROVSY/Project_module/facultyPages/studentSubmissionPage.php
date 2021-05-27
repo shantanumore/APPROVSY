@@ -63,7 +63,7 @@ $res=mysqli_query($mysqli,$sql);
                                         <td><?php echo $row2["date_of_creation"];?></td>
                                         <td><?php echo $row2["time_of_creation"];?></td>
                                         <td><?php echo $row2["file_type"];?></td>
-                                        <td><a href="/projectApprovalSystem/facultyPages/downloadFile.php?filename=<?php echo $row2["file"]; ?>"><?php echo $row2["file"];?></a></td>
+                                        <td><a href="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyPages/downloadFile.php?filename=<?php echo $row2["file"]; ?>"><?php echo $row2["file"];?></a></td>
                                         <td><button class="btn btn-success" type="button" name="approve" >Approve</button>
                                         	&nbsp;
                                         	<button class="btn btn-danger" type="button">Reject</button>

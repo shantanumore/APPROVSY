@@ -36,18 +36,18 @@ $res=mysqli_query($mysqli,$sql);
                 }
                 ?>
                     <div class="card" style="height:auto;">
-                        <div class="header bg-blue-grey" style="text-align: center;">
+                        <div class="header" style="text-align: center ; background-color: #BE9CFF;">
                             <?php
                             if($row["profile_picture"]==NULL)
                             {
                                 ?>
-                               <img src="/projectApprovalSystem/image/user_image.jpg"  width="120" height="150" style="border: 5px solid black" >
+                               <img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/user_image.jpg"  width="150" height="150" style="border: 3px solid ; border-color: purple;">
                             <?php
                             }
                             else
                             {
                             ?>
-                        	<img src="/projectApprovalSystem/image/<?php echo $row["profile_picture"]; ?>"  width="120" height="150" style="border: 5px solid black" >
+                        	<img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/<?php echo $row["profile_picture"]; ?>"  width="150" height="150" style="border: 3px solid ; border-color: purple;" >
                             <?php
                             }
                             ?>

@@ -1,5 +1,7 @@
 <?php
+
 include "db.php";
+
 session_start();
 if(isset($_SESSION["currentEmail"]) && !empty($_SESSION["currentEmail"]))
 {
@@ -8,7 +10,7 @@ $sql="select is_email_verified from student_group where email_id='".$currentEmai
 $res=mysqli_query($mysqli,$sql);
 if(mysqli_num_rows($res)==0)
 {
-    header("location:/minor/studentR.html");
+    header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentR.html");
     return;
 }
 while($row=mysqli_fetch_array($res))
@@ -26,10 +28,10 @@ if($isEmailVerified==="N")
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Project Approval System</title>
+    <title>Project Approval System</title> -->
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -38,13 +40,13 @@ if($isEmailVerified==="N")
 
     <!-- Main css -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/registration_css/style.css">
-    <style type="text/css">
+    <!-- <style type="text/css">
         .invalid
         {
             border:1px solid #e62727;
         }
 
-    </style>
+    </style> -->
     <script type="text/javascript">
         function formValidation()
         {
@@ -77,15 +79,17 @@ if($isEmailVerified==="N")
     </script>
 
 </head>
-<body>
-    <div class="main">
-<video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
+<body style="background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Purple-Modern-Pattern-Simple-Background-Image.jpg)">
+<!-- assets/images/signup-bg-1.jpg -->
+    <div >
+<!-- <video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
         <source src="1.mp4" type="video/mp4">
-  </video>
-        <section class="signup">
-            <!-- <img src="images/signup-bg.jpg" alt=""> -->
-            <div class="login-container">
-                <div class="signup-content">
+  </video> -->
+  
+        <section class="signup" >
+            
+            <div class="login-container" >
+                <div class="signup-content" style="background-color:#BE9CFF">
                     <form method="POST" action="/APPROVSY/HOME PAGE APPROVSY/Project_module/studentLogin.php" id="signup-form" class="signup-form" onsubmit="return formValidation()" >
                         <div class="form-title">
                         <h1 style='text-align: center;'>Login</h1>
