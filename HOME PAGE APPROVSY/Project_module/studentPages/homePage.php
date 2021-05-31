@@ -45,18 +45,16 @@ include 'sidebar.php';
                             </h2>
                         </div>
                         <marquee class="marq" bgcolor = "" direction = "up" loop="true" height="500px" style="padding-left: 15px;padding-right: 20px;border-spacing: 5px;">
-                            <div style="text-align: center;font-style: italic;font-family: cursive;border-bottom: 1px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
-                       <br>
+                            <div style="text-align: center;font-family: roboto;border-bottom: 2px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
+            
 <!--                        <img src="/projectApprovalSystem/image/vinay_image.jpg"  style="width:200px; height:200px;border-radius: 49%;" border="10" ><br>
- -->                    <a style="color:blue;font-size: 20px;">Vinay Jain</a><br>
-                    <a style="color:green;font-size: 18px;">IT Student</a><br>
-                    Shree vaishnav vidhyapeeth vishwavidhalaya,Indore<br>
-                    Hello I am Vinay Jain Student of IT 3rd year. I love Website Designing.I am very glad to express my hard work in front of you.I am full stack web developer and have command in many of the languages. If you need any help then contact me.<br>
-                    Thanking You.
-                         <p><div class="cont">
+ -->                    <h4 style="color:red;font-size: 20px;">SRS Submission!</h4>
+                    <!-- <a style="color:green;font-size: 18px;">IT Student</a><br> -->
+                    Last date for SRS submission : 30-05-2021<br>
+                         <!-- <p><div class="cont">
                         <p style="text-align: center; font-size: 20px;">
                      &nbsp;&nbsp;<img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/phone.png"  style="width:25px; height:25px;">
-                     Contact Me: +919074977013 </p>
+                     Contact Me: +919074977013 </p> -->
                     </div>
                     </div>
 

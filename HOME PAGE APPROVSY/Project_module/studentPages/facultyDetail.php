@@ -15,8 +15,8 @@ $row=mysqli_fetch_array($res,MYSQLI_ASSOC);
                 <div class="col-lg-2"></div>
             	<div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div class="card" style="height:auto;">
-                        <div class="header bg-blue-grey" style="text-align: center;">
-                            <img src="/projectApprovalSystem/image/<?php echo $row["image"]; ?>" width="120" height="150" style="border: 5px solid black" />
+                        <div class="header" style="text-align: center; background-color: #BE9CFF;">
+                            <img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/<?php echo $row["image"]; ?>" width="120" height="150" style="border: 5px solid black" />
                                 <br/>
                         </div>
                         <div class="body">

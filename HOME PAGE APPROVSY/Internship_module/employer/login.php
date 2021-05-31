@@ -24,7 +24,7 @@
 
 <div class="container p-3">
 	<div class="card">
-		<div class="card-header blue-gradient text-white" style="background-color: #D3C0F9; ">
+		<div class="card-header  text-white" style="background-color: #212121; ">
 			<h3 class="p-2 h3-responsive" style="font-weight: 400; margin-top:15px "><b>Faculty Login!</b></h3>
 		</div>
 		<form action="" method="post">

@@ -6,7 +6,7 @@
 
 <div class="container p-3">
 	<div class="card ">
-		<div class="card-header white-text blue-gradient">
+		<div class="card-header white-text " style="background-color: #212121;">
 			<h3 class="p-2 h3-responsive" style="font-weight: 400; margin-top:15px">Admin Login!</h3>
 		</div>
 		<form action="" method="post">

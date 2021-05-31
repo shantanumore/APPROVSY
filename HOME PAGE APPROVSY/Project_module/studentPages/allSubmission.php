@@ -29,6 +29,7 @@ $res=mysqli_query($mysqli,$sql);
                                     <th>Date Of Creation</th>
                                     <th>Time Of Creation</th>
                                     <th>File Name</th>
+                                    <th>Approve/Reject<th>
                                 </thead>
                                 <tbody>
                                 <?php

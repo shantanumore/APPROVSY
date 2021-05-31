@@ -21,7 +21,7 @@
 <body>
   <header>
     <!--Navbar -->
-    <nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient">
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark " style="background-color: #6206A8;">
       <a class="navbar-brand" href="index.php"  style="font-size:30px;font-weight:bold" >Admin Portal</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">

@@ -6,12 +6,12 @@ if(mysqli_connect_errno()){
 	die();
 }
 
-require_once $_SERVER['DOCUMENT_ROOT'].'/internship/config.php';
-require_once BASEURL.'helpers/helpers.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/APPROVSY/HOME PAGE APPROVSY/Internship_module/config.php';
+require_once BASEURL.'/APPROVSY/HOME PAGE APPROVSY/Internship_module/helpers/helpers.php';
 
 $cart_id = '';
-if(isset($_COOKIE[CART_COOKIE])){
-	$cart_id = sanitize($_COOKIE[CART_COOKIE]);
+if(isset($_COOKIE['CART_COOKIE'])){
+	$cart_id = sanitize($_COOKIE['CART_COOKIE']);
 }
 
 if(isset($_SESSION['SBUser'])){

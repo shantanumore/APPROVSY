@@ -44,7 +44,7 @@
   <link href="css/style.css" rel="stylesheet">  
 </head>
 <body>
-	<nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient" style="background-color: #6206A8;">
+	<nav class="mb-1 navbar navbar-expand-lg navbar-dark " style="background-color: #6206A8;">
       	<a class="navbar-brand" href="index.php"  style="font-size:26px;font-weight:bold" ><?=$cus_name;?></a>
         <!-- Collapse button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"

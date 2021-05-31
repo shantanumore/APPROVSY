@@ -41,22 +41,18 @@ include 'sidebar.php';
                      <div class="card" style="height: 600px;">
                         <div class="header" style="background-color: #BE9CFF;" >
                             <h2 style="text-align: center;">
-                                <b>Announcements</b>
+                                <b>Lecture Schedule</b>
                             </h2>
                         </div>
                         <marquee class="marq" bgcolor = "" direction = "up" loop="true" height="500px" style="padding-left: 15px;padding-right: 20px;border-spacing: 5px;">
-                            <div style="text-align: center;font-style: italic;font-family: cursive;border-bottom: 1px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
+                            <div style="text-align: center;font-family: roboto;border-bottom: 2px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
                        <br>
-<!--                        <img src="/projectApprovalSystem/image/vinay_image.jpg"  style="width:200px; height:200px;border-radius: 49%;" border="10" ><br> -->
-                    <a style="color:blue;font-size: 20px;">Vinay Jain</a><br>
-                    <a style="color:green;font-size: 18px;">IT Student</a><br>
-                    Shree vaishnav vidhyapeeth vishwavidhalaya,Indore<br>
-                    Hello I am Vinay Jain Student of IT 3rd year. I love Website Designing.I am very glad to express my hard work in front of you.I am full stack web developer and have command in many of the languages. If you need any help then contact me.<br>
-                    Thanking You.
+                       <!-- <img src="/projectApprovalSystem/image/vinay_image.jpg"  style="width:200px; height:200px;border-radius: 49%;" border="10" ><br> -->
+                    <a style="color:red;font-size: 20px;">CSE-D 3rd Year</a><br>
+                    Monday : 3:15 PM to 4:00 PM <br>
+                    Friday : 1:45 PM to 2:30 PM 
                          <p><div class="cont">
-                        <p style="text-align: center; font-size: 20px;">
-                     &nbsp;&nbsp;<img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/phone.png"  style="width:25px; height:25px;">
-                     Contact Me: +919074977013 </p>
+                      
                     </div>
                     </div>
 

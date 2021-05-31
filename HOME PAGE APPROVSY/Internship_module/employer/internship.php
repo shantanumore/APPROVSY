@@ -29,7 +29,7 @@
     }else{
 ?>
   <main>
-    <h3 class="text-center p-3">This is the Internship Section</h3>
+    <h3 class="text-center p-3 text-white"><b>This is the Internship Section</b></h3>
     <?php
       if(isset($_GET['delete'])){
         $id = sanitize($_GET['delete']);
@@ -165,7 +165,7 @@
       <div class="container-fluid table-responsive">  
         <a href="internship.php?add=1" class="btn text-white" style="background-color: #1c2a48" id="add-product-btn">Add Internship</a>
         <div class="clearfix"></div><br>
-        <table class="table table-striped table-bordered" style="display: table;">
+        <table class="table table-striped table-bordered" style="display: table; color:white">
           <thead>
             <th></th>
             <th></th>
@@ -186,10 +186,10 @@
             <?php while($internship = mysqli_fetch_assoc($internships)):?>
               <tr>
                 <td>
-                  <a href="internship.php?edit=<?=$internship['id'];?>"><i class="fas fa-edit"></i></a>
+                  <a href="internship.php?edit=<?=$internship['id'];?>"><i class="fas fa-edit text-white"></i></a>
                 </td>
                 <td>
-                  <a href="internship.php?delete=<?=$internship['id'];?>"><i class="fas fa-trash"></i></a>
+                  <a href="internship.php?delete=<?=$internship['id'];?>"><i class="fas fa-trash text-white"></i></a>
                 </td>
                 <td class="text-center"><?=$internship['nameOfCompany'];?></td>
                 <td class="text-center"><?=$internship['location'];?></td>

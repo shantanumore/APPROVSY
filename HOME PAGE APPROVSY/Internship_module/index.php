@@ -10,17 +10,17 @@
 ?>
 
 <main>
-  <b><h2 class="text-center p-3" style="font-weight: bold;">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h2></b>
-  <h3 class="text-center p-3" style="font-weight: 400; margin-bottom:20px">List of Internships</h3>
+  <b><h2 class="text-center p-3" style="font-weight: bold; color:white;">Shri Vaishnav Vidyapeeth Vishwavidyalaya</h2></b>
+  <h3 class="text-center p-3" style="font-weight: 400; margin-bottom:20px ; color:white;">List of Internships</h3>
   <div class="container-fluid row">
     <!-- List of Internships -->
     <?php while($internship = mysqli_fetch_assoc($internships)): ?>
     <div class="col-md-6">
       <div class="card ">
-        <div class="card-header text-white blue-gradient-rgba" style="background-color: #D3C0F9;  ">
-         <h2 class="p-2 text-center card-title" style="font-family: 'Roboto', sans-serif;font-size:25px; font-weight:bold"><b><?=$internship['nameOfCompany'];?></b></h2>
+        <div class="card-header text-white " style="background-color: #212121;  ">
+         <h2 class="p-2 text-center card-title" style="font-family: 'Roboto', sans-serif;font-size:25px; font-weight:bold ; color:white;"><b><?=$internship['nameOfCompany'];?></b></h2>
         </div>
-        <div class="card-body">
+        <div class="card-body" >
           <h4 class="p-2 h4-responsive float-left"><?=$internship['category'];?></h4>
           <h5 class="p-2 h5-responsive float-right"><b>Location: </b><?=$internship['location'];?></h5>
           <table class="table table-bordered">

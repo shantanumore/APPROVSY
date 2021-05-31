@@ -35,11 +35,11 @@
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script> 
 </head>
 
-<body>
+<body style="background-image: url(../assets/images/bg-2.png); height:100%; background-repeat: no-repeat;background-size: cover;">
   <header>
     <!--Navbar -->
-    <nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient self" style="background-color: #6206A8;">
-      <a class="navbar-brand" href="../index.php" style="font-size:30px;font-weight:bold" style="background-color: #6206A8;">&ltAPPROVSY&gt</a>
+    <nav class="mb-1 navbar navbar-expand-lg  self" style="background-color: #6206A8;">
+      <a class="navbar-brand" href="../index.php" style="font-size:30px;font-weight:bold; color:white;" style="background-color: #6206A8;">&ltAPPROVSY&gt</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -52,20 +52,20 @@
           <?php 
               if(!isset($_SESSION['email'])){
                 echo "
-                <li class='nav-item'><a href='myaccount.php' class='nav-link' style='border-radius: 10em; font-size:19px;'><b>Student</b></a></li>
-                <li class='nav-item'><a href='employer/myaccount.php' class='nav-link' style='border-radius: 10em; font-size:19px;'><b>Faculty</b></a></li>
+                <li class='nav-item'><a href='myaccount.php' class='nav-link' style='border-radius: 10em; font-size:19px; color:white;'><b>Student</b></a></li>
+                <li class='nav-item'><a href='employer/myaccount.php' class='nav-link' style='border-radius: 10em; font-size:19px;color:white;'><b>Faculty</b></a></li>
                 ";
               }
               else{
-                echo "<li class='nav-item'><a href='myaccount.php' class='nav-link' style='border-radius: 10em;font-size:19px;'><b>My Account</b></a></li>";
-                echo "<li class='nav-item'><a href='logout.php' class='nav-link' style='border-radius: 10em;font-size:19px;'><b>Logout</b></a></li>";
+                echo "<li class='nav-item'><a href='myaccount.php' class='nav-link' style='border-radius: 10em;font-size:19px; color:white;'><b>My Account</b></a></li>";
+                echo "<li class='nav-item'><a href='logout.php' class='nav-link' style='border-radius: 10em;font-size:19px;color:white;'><b>Logout</b></a></li>";
               }
             ?>
         </ul>
         <ul class="navbar-nav ml-auto nav-flex-icons">
           
           <li class="nav-item">
-          <a class="nav-link " href="index.php" style="font-size:20px;font-weight:400">Internship Portal</a>
+          <a class="nav-link " href="index.php" style="font-size:20px;font-weight:400;color:white;">Internship Portal</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link waves-effect waves-light">

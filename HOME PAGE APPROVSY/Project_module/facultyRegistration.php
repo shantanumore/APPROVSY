@@ -1,7 +1,7 @@
 <?php 
 session_start();
 $_SESSION['message']='';
-$mysqli = new mysqli("127.0.0.1:3307", "root", "", "minor");
+$mysqli = new mysqli("127.0.0.1", "root", "", "minor");
 if ($_SERVER['REQUEST_METHOD']=='POST') 
 {
    
@@ -43,7 +43,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up Form </title>
+    <title>APPROVSY-PROJECT APPROVAL </title>
+    <link href="assets/images/check.png" rel="icon">
 
     <!-- Font Icon -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/fonts/material-icon/css/material-design-iconic-font.min.css">
@@ -60,16 +61,16 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
     <div class="main">
 
         <section class="signup">
-<video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
+<!-- <video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
         <source src="1.mp4" type="video/mp4">
-  </video>
+  </video> -->
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="login-container">
                 <div class="signup-content">
                      <form action="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyRegistration.php" method="post">
                             <div class="alert alert-error"><?= $_SESSION['message']?></div>
                         <div class="form-title">
-                        <h1 style='text-align: center;'>REGISTRATION!!</h1>
+                        <h1 style='text-align: center;'><b>FACULTY REGISTRATION</b></h1>
                     </div>
                     
                         <div class="form-group">
@@ -102,7 +103,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
                    
              <div class="form-group">
                             <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a class="loginhere-link" href="/projectApprovalSystem/terms.html"> Terms and condition</a>   </label>
+                            <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a class="loginhere-link" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/terms.html"> Terms and condition</a>   </label>
                         </div>
                         <div class="form-group">
                             <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>

@@ -45,7 +45,7 @@
   <!-- Display internship details -->
   <div class="container-fluid">
     <div class="card">
-      <div class="card-header">
+      <div class="card-header white-text" style="background-color: #212121">
         <h2 class="p-2 text-center card-title"><?=$category;?> Internship in <?=$location;?> at <?=$nameOfCompany;?></h2>
       </div>
       <div class="card-body">

@@ -27,8 +27,8 @@ echo"invalid";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LOGIN FORM</title>
-
+    <title>APPROVSY-PROJECT APPROVAL </title>
+    <link href="assets/images/check.png" rel="icon">
     <!-- Font Icon -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/fonts/material-icon/css/material-design-iconic-font.min.css">
 
@@ -37,20 +37,20 @@ echo"invalid";
     <!-- Main css -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/registration_css/style.css">
 </head>
-<body>
+<body style="background-image: url(assets/images/svvv1.jpg); height:100%;background-position:center; background-repeat: no-repeat; background-size: 100% 200%; ">
 
     <div class="main">
 
         <section class="signup">
-<video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
+<!-- <video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
         <source src="1.mp4" type="video/mp4">
-  </video>
+  </video> -->
             <!-- <img src="images/signup-bg.jpg" alt=""> -->
             <div class="login-container">
                 <div class="signup-content">
                     <form method="POST" action="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyLogin.php" id="signup-form" class="signup-form">
                         <div class="form-title">
-                        <h1 style='text-align: center;'>Login</h1>
+                        <h1 style='text-align: center;'><b>Faculty-Login</b></h1>
                     </div>
                         <div class="form-group">
                             <input type="text" class="form-input" name="email_id" id="email_id" placeholder="Email Id"/>

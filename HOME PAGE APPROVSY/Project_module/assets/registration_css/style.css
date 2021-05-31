@@ -141,7 +141,7 @@ body {
   color: #222;
   font-weight: 400;
   font-family: 'Montserrat';
- /* background-image: url("../images/signup-bg-1.jpg"); */
+ background-image: url("../images/svvv1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   -moz-background-size: cover;
@@ -149,7 +149,8 @@ body {
   -o-background-size: cover;
   -ms-background-size: cover;
   background-position: center center;
-  padding: 60px 0; }
+  padding: 60px 0; 
+}
 
 .container {
   width: 800px;

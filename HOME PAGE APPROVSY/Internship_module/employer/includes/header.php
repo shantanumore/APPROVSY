@@ -18,10 +18,10 @@
   
 </head>
 
-<body>
+<body style="background-image: url(../../assets/images/bg-2.png); height:100%; background-repeat: no-repeat;background-size: cover;">
   <header>
     <!--Navbar -->
-    <nav class="mb-1 navbar navbar-expand-lg navbar-dark blue-gradient" style="background-color: #6206A8;">
+    <nav class="mb-1 navbar navbar-expand-lg navbar-dark" style="background-color: #6206A8;">
       <a class="navbar-brand" href="../../index.php" style="font-size:30px;font-weight:bold" >&ltAPPROVSY&gt</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
         aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">

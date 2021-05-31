@@ -13,16 +13,16 @@ if(mysqli_num_rows($res)==0)
     header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentR.html");
     return;
 }
-while($row=mysqli_fetch_array($res))
-{
-    $isEmailVerified=$row["is_email_verified"];
-    break;
-}
-if($isEmailVerified==="N")
-{
-    header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/emailVerification.php");
-    return;
-}
+// while($row=mysqli_fetch_array($res))
+// {
+//     $isEmailVerified=$row["is_email_verified"];
+//     break;
+// }
+// if($isEmailVerified==="N")
+// {
+//     header("location:/APPROVSY/HOME PAGE APPROVSY/Project_module/studentLoginPage.php");
+//     return;
+// }
 }
 ?>
 <!DOCTYPE html>
@@ -32,12 +32,13 @@ if($isEmailVerified==="N")
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Project Approval System</title> -->
-
+    <title>APPROVSY-PROJECT APPROVAL </title>
+    <link href="assets/images/check.png" rel="icon">
     <!-- Font Icon -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/fonts/material-icon/css/material-design-iconic-font.min.css">
 
     <link href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+    
     <!-- Main css -->
     <link rel="stylesheet" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/registration_css/style.css">
     <!-- <style type="text/css">
@@ -79,7 +80,7 @@ if($isEmailVerified==="N")
     </script>
 
 </head>
-<body style="background-image: url()">
+<body style="background-image: url(assets/images/svvv1.jpg); height:100%;background-position:center; background-repeat: no-repeat; background-size: 100% 200%; ">
 <!-- assets/images/signup-bg-1.jpg -->
     <div >
 <!-- <video  playsinline autoplay muted loop style="  position: fixed;right: 0;bottom: 0;min-width: 100%;min-height: 100%;">
@@ -89,10 +90,10 @@ if($isEmailVerified==="N")
         <section class="signup" >
             
             <div class="login-container" >
-                <div class="signup-content" style="background-color:#BE9CFF">
+                <div class="signup-content" >
                     <form method="POST" action="/APPROVSY/HOME PAGE APPROVSY/Project_module/studentLogin.php" id="signup-form" class="signup-form" onsubmit="return formValidation()" >
                         <div class="form-title">
-                        <h1 style='text-align: center;'>Login</h1>
+                        <h1 style='text-align: center;'><b>Student-Login</b></h1>
                         <h6 style="text-align: center;color: red;">
                             <?php
                             if(!empty($_SESSION["invalid"]))
@@ -116,7 +117,7 @@ if($isEmailVerified==="N")
                     <p style='text-align: center;color: black;'>
                         Don't have account ? <a href="/APPROVSY/HOME PAGE APPROVSY/Project_module/studentRegistrationPage.html" class="loginhere-link">Register here</a>
                         <br>
-                        Email Not Verified ? <a href="/APPROVSY/HOME PAGE APPROVSY/Project_module/emailVerificationPage.php" class="loginhere-link">Verify Here </a>
+                        <!-- Email Not Verified ? <a href="/APPROVSY/HOME PAGE APPROVSY/Project_module/emailVerificationPage.php" class="loginhere-link">Verify Here </a> -->
                     </p>
                 </div>
             </div>

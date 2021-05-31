@@ -1,5 +1,5 @@
 <!--Footer-->
-<footer class="page-footer wow fadeIn" style="font-family: Roboto;font-weight: 400;  background-color: #3352AC;">
+<footer class="page-footer wow fadeIn" style="font-family: Roboto;font-weight: 400;  background-color: #6206A8;">
   <div class="">
     <div class="container">
       <!--Grid row-->
