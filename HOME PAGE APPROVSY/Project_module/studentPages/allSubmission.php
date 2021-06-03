@@ -43,6 +43,22 @@ $res=mysqli_query($mysqli,$sql);
                                         <td><?php echo $row["date_of_creation"];?></td>
                                         <td><?php echo $row["time_of_creation"];?></td>
                                         <td><?php echo $row["file"];?></td>
+                                        <td>
+                                        <?php 
+                                        if($row["isApproved"]==1)
+                                        {
+                                            echo "Approved";    
+                                        }
+                                        else if($row["isReject"]==1)
+                                        {
+                                            echo "Rejected";
+                                        }
+                                        else
+                                        {
+                                            echo "-";
+                                        }
+                                        ?>
+                                        </td>
                                     </tr>
                                     <?php
                                 }

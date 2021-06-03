@@ -34,7 +34,7 @@ include 'sidebar.php';
                                     <select name="fileType" class="show-tick">
                                         <option>File Type</option>
                                         <option value='Synopsis'>Synopsis</option>
-                                        <option value="Srs">Srs</option>
+                                        <option value="Srs">SRS</option>
                                         <option value="Project_Report">Project Report</option>
                                     </select>
                                 </div>

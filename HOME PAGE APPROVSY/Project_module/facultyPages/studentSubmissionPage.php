@@ -50,7 +50,7 @@ $res=mysqli_query($mysqli,$sql);
                                 while($row=mysqli_fetch_array($res))
 								{
 									$i=1;
-									$sql2="select * from student_file where group_code='".$row["code"]."'";
+									$sql2="select * from student_file where group_code='".$row["code"]."' and isApproved=0 and isReject=0";
 									$res2=mysqli_query($mysqli,$sql2);
                                 while($row2=mysqli_fetch_array($res2))
                                 {
@@ -64,9 +64,18 @@ $res=mysqli_query($mysqli,$sql);
                                         <td><?php echo $row2["time_of_creation"];?></td>
                                         <td><?php echo $row2["file_type"];?></td>
                                         <td><a href="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyPages/downloadFile.php?filename=<?php echo $row2["file"]; ?>"><?php echo $row2["file"];?></a></td>
-                                        <td><button class="btn btn-success" type="button" name="approve" >Approve</button>
-                                        	&nbsp;
-                                        	<button class="btn btn-danger" type="button">Reject</button>
+                                        <td>
+                                        <form method="post">
+                                            
+                                            
+                                             <input type="hidden" value="<?php echo $row2['code']; ?>" name="approved"> 
+                                             <input type="submit" class="btn btn-success"   value="Approve">
+                                        </form>
+                                        <form method="post">
+                                        	
+                                            <input type="hidden" value="<?php echo $row2['code']; ?>" name="rejected"> 
+                                            <input type="submit" class="btn btn-danger"  value="Reject" style="margin-top: -53px;margin-left: 80px;">
+                                        </form>
                                         </td>
                                     </tr>
                                     <?php
@@ -85,5 +94,26 @@ $res=mysqli_query($mysqli,$sql);
   </section>
 
 <?php
-include 'footer.html';
+
+
+$ids=isset($_POST['code']);
+
+if (isset($_POST['approved'])){
+    $status=1;
+    $ids=$_POST["approved"];
+    $sql = "UPDATE student_file set isApproved = $status where code=$ids";
+    echo "<meta http-equiv='refresh' content='0'>";
+    }
+    
+    if (isset($_POST['rejected'])){
+    $status=1;
+    $ids=$_POST["rejected"];
+    $sql = "UPDATE student_file set isReject = $status where code=$ids";
+    echo "<meta http-equiv='refresh' content='0'>";
+    }
+
+    $res=mysqli_query($mysqli,$sql);
+	$affectedRows=mysqli_affected_rows($mysqli);
+    
+    include 'footer.html';
 ?>

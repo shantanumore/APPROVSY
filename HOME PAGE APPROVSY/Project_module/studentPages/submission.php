@@ -25,7 +25,11 @@ if(isset($_POST["submit"]))
 	date_default_timezone_set("Asia/Kolkata");   //India time (GMT+5:30)
 	$date=date('Y-m-d');
 	$time=date('H:i:s');
-	$sql="insert into student_file (file,comment,title,date_of_creation,time_of_creation,file_type,group_code) values('".$file_name."','".$comment."','".$title."','".$date."','".$time."','".$selectValue."','".$groupCode."')";
+
+	$approve=0;
+	$reject=0;
+	$sql="insert into student_file (file,comment,title,date_of_creation,time_of_creation,file_type,group_code,isApproved,isReject) values('".$file_name."','".$comment."','".$title."','".$date."','".$time."','".$selectValue."','".$groupCode."','".$approve."','".$reject."')";
+	
 	echo $sql;
 	$res=mysqli_query($mysqli,$sql);
 	$affectedRows=mysqli_affected_rows($mysqli);
