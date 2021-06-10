@@ -47,15 +47,16 @@ include 'sidebar.php';
                         <marquee class="marq" bgcolor = "" direction = "up" loop="true" height="500px" style="padding-left: 15px;padding-right: 20px;border-spacing: 5px;">
                             <div style="text-align: center;font-family: roboto;border-bottom: 2px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
             
-<!--                        <img src="/projectApprovalSystem/image/vinay_image.jpg"  style="width:200px; height:200px;border-radius: 49%;" border="10" ><br>
- -->                    <h4 style="color:red;font-size: 20px;">SRS Submission!</h4>
-                    <!-- <a style="color:green;font-size: 18px;">IT Student</a><br> -->
-                    Last date for SRS submission : 30-05-2021<br>
-                         <!-- <p><div class="cont">
-                        <p style="text-align: center; font-size: 20px;">
-                     &nbsp;&nbsp;<img src="/APPROVSY/HOME PAGE APPROVSY/Project_module/image/phone.png"  style="width:25px; height:25px;">
-                     Contact Me: +919074977013 </p> -->
-                    </div>
+                            <h4 style="color:red;font-size: 20px;">SRS Submission!</h4>
+                            Last date for SRS submission : 30-05-2021<br>
+                   
+                            </div>
+                            <div style="text-align: center;font-family: roboto;border-bottom: 2px solid black;border-right: 2px solid black;border-top:2px solid black;border-left: 2px solid black;margin: 10px;padding: 10px ">
+            
+                                <h4 style="color:red;font-size: 20px;">Internal Dates!</h4>
+                                    Minor Project Internal  : 11-06-2021<br>
+   
+                            </div>
                     </div>
 
 

@@ -3,6 +3,7 @@
 	include 'includes/header.php';
 	include '../core/init.php';
 ?>
+<div class="wrapper">
 <div id="about" class="view" style="height: 50%;background: url('../img/ban.JPG')no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,13 +23,13 @@
 	</div>
 </div>
 
-<div class="container p-3">
-	<div class="card">
-		<div class="card-header  text-white" style="background-color: #212121; ">
-			<h3 class="p-2 h3-responsive" style="font-weight: 400; margin-top:15px "><b>Faculty Login!</b></h3>
+<div class="container p-3 d-flex justify-content-center">
+	<div class="card text-center " style="border-radius: 19px; width:40rem; height:26rem; ">
+		<div class="card-header  text-white" style="background-color: #ffffff; border-radius: 19px 19px 0px 0px; background-color: #222; border-radius: 19px 19px 0px 0px; ">
+			<h3 class="p-2 h3-responsive" style="margin-top:15px; font-family: 'Quicksand', sans-serif;font-size:30px; font-weight:bold ;"><b>Faculty Login!</b></h3>
 		</div>
 		<form action="" method="post">
-			<div class="card-body">
+			<div class="card-body" style="font-family: 'Quicksand', sans-serif; font-weight:bold ;">
 				<div class="md-form form-sm">
 					<input type="text" id="email" class="form-control form-control-sm" name="email" required>
 					<label for="email">Email</label>
@@ -47,8 +48,18 @@
 				</div>
 			</div>			
 			<div class="card-footer">
-				<div class="float-right">
-					<button type="submit" name="login" class="btn btn-black" style="border-radius: 10em;background: #1c2a48">Login</button>
+				<div class="float-center">
+					<button type="submit" name="login" class="btn btn-black" style="background: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom:15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+    color: #fff;">Login</button>
 				</div>
 			</div>
 		</form>
@@ -85,7 +96,7 @@
 		?>
 	</div>
 </div>
-
+</div>
 <?php
 	include 'includes/footer.php';
 ?>

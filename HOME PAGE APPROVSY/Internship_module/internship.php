@@ -46,7 +46,7 @@
   <div class="container-fluid">
     <div class="card">
       <div class="card-header white-text" style="background-color: #212121">
-        <h2 class="p-2 text-center card-title"><?=$category;?> Internship in <?=$location;?> at <?=$nameOfCompany;?></h2>
+        <h2 class="p-2 text-center card-title" style="margin-top:15px; font-family: 'Quicksand', sans-serif;font-size:30px; font-weight:bold ;"><?=$category;?> Internship in <?=$location;?> at <?=$nameOfCompany;?></h2>
       </div>
       <div class="card-body">
         <h4 class="p-2 h4-responsive float-left"><?=$category;?></h4>

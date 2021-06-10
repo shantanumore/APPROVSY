@@ -9,13 +9,14 @@
       echo "<script>window.open('login.php','_self')</script>";
     }else{
 ?>
-
+<div class="wrapper">
 	<main>
-		<h1 class="text-center"> Home page for Faculty </h1>
+		<h1 style="text-align:center; margin-left:520px; ; margin-top:50px; color:white;"> Home page for Faculty </h1>
 	</main>
-
+</div>
 <?php
 	include 'includes/footer.php';
 ?>
 
 <?php } ?>
+

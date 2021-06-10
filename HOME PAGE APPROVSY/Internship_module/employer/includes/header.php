@@ -9,10 +9,12 @@
   <link href="../../assets/images/check.png" rel="icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
   <link href="../css/mdb.min.css" rel="stylesheet">
+  <link href="../css/style_bg.css" rel="stylesheet">
   <!-- Your emptom styles (optional) -->
   <link href="../css/style.css" rel="stylesheet">  
   

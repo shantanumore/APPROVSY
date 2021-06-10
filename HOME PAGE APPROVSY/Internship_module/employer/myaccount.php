@@ -38,6 +38,7 @@
   <link href="../../assets/images/check.png" rel="icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,700&subset=latin-ext" rel="stylesheet">
   <!-- Bootstrap core CSS -->
   <link href="../css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -75,7 +76,7 @@
             echo 
             "<div class='card'>
                 <div class='card-header '>
-                  <h3 class='h3-responsive p-2'><b>Hello $emp_name !<b></h3>
+                  <h3 class='h3-responsive p-2' style=' font-family: Quicksand, sans-serif;font-size:30px; font-weight:bold ;'><b>Hello $emp_name !<b></h3>
                 </div>
                 <div class='card-body table-responsive'>
                   <table class='table table-striped table-condensed' style='display: table'>

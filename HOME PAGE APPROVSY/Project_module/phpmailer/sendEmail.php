@@ -39,20 +39,21 @@ $mail->addReplyTo(EMAIL);
 
 // $mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 // $mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-$pin=mt_rand(10000,99999);
-echo $pin;
-$mail->isHTML(true);                                  // Set email format to HTML
+// $pin=mt_rand(10000,99999);
+// echo $pin;
+// $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Here is the subject';
-$mail->Body    = 'Your pin for project Approval System is '.$pin;
-$_SESSION["verificationToken"]=$pin;
+// $mail->Body    = 'Your pin for project Approval System is '.$pin;
+// $_SESSION["verificationToken"]=$pin;
 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    echo '<script>alert("Registered Successfully")</script>';
+    echo "<script>location.href ='/APPROVSY/HOME PAGE APPROVSY/Project_module/studentLoginPage.php';</script>";
+	
 } else {
     echo 'Message has been sent';
-  
 }
+
 

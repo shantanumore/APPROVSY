@@ -106,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
                             <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in <a class="loginhere-link" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/terms.html"> Terms and condition</a>   </label>
                         </div>
                         <div class="form-group">
-                            <input type="submit" name="submit" id="submit" class="form-submit" value="Sign up"/>
+                            <input type="submit" onclick="alertmsg()" name="submit" id="submit" class="form-submit" value="Sign up"/>
                         </div>
         </form>
         <p>Already Registered.<a class="loginhere-link" href="/APPROVSY/HOME PAGE APPROVSY/Project_module/facultyLogin.php">Login here</a></p>
@@ -118,6 +118,12 @@ if ($_SERVER['REQUEST_METHOD']=='POST')
     </div>
 
     <!-- JS -->
+    <script >
+        function alertmsg()
+        {
+            alert("Registered succcessfully");
+        }
+    </script>
     <script src="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/vendor/jquery/jquery.min.js"></script>
     <script src="/APPROVSY/HOME PAGE APPROVSY/Project_module/assets/js/main.js"></script>
 </body>

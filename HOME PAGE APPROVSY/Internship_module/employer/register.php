@@ -4,11 +4,10 @@
   include('includes/header.php');
 ?>
 
-<h2 class="text-center"><b>Faculty Registration<b></h2>
-<div class="container-fluid p-2">
-	<div class="card">
-		<div class="card-header">
-			<h3 class="h3-responsive p-2 text-center"><b>Registration Form<b></h3>
+<div class="container-fluid p-2 d-flex justify-content-center" >
+	<div class="card" style="border-radius: 19px; width:40rem; height:40rem; ">
+		<div class="card-header" style="background-color: #ffffff; border-radius: 19px 19px 0px 0px; background-color: #222; border-radius: 19px 19px 0px 0px; ">
+			<h3 class="h3-responsive p-2 text-center text-white" style="margin-top:15px; font-family: 'Quicksand', sans-serif;font-size:30px; font-weight:bold ;"><b>Faculty Registration Form<b></h3>
 		</div>
 		<div class="card-body">
 			<div class="container-fluid">
@@ -63,7 +62,17 @@
 				            </div>
 						</div>
 						<div class="text-center mt-4">
-			              	<button class="btn btn-default" type="submit" name="submit">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
+			              	<button class="btn btn-default" type="submit" name="submit" style="background: none;
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom:15px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #d5135a, #f05924);
+    box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
+    color: #fff;">Submit <i class="fa fa-paper-plane-o ml-1"></i></button>
 			            </div>					
 					</div>
 				</form>

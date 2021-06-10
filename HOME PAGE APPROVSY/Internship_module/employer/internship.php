@@ -28,6 +28,7 @@
       echo "<script>window.open('login.php','_self')</script>";
     }else{
 ?>
+
   <main>
     <h3 class="text-center p-3 text-white"><b>This is the Internship Section</b></h3>
     <?php
@@ -78,6 +79,8 @@
           $db->query($insertSql);
         }
     ?>
+
+  
     <div class="container">
       <div class="">
         <div class="card">
@@ -206,5 +209,5 @@
     <?php } ?>
     </div>
   </main>
-
+ 
 <?php include 'includes/footer.php'; } ?>

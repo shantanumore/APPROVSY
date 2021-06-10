@@ -11,10 +11,10 @@
 ?>
 
 	<main>
-		<h2 class="text-center p-3"> Application(s) by Students </h2>
+		<h2 class="text-center p-3 text-white"><b> Application(s) by Students </b> </h2>
 		<div class="container-fluid table-responsive">  
 	        <table class="table table-striped table-bordered" style="display: table;">
-	          	<thead>
+	          	<thead class="text-white">
 	          		
 		            <th class="text-center"><h5 class="h5-responsive"><b>Name of Applicant</b></h5></th>
 		            <th class="text-center"><h5 class="h5-responsive"><b>Category</b></h5></th>
@@ -32,7 +32,7 @@
 	            ?>
 
 	            <?php while($application = mysqli_fetch_assoc($applications)):?>
-	              <tr>
+	              <tr class="text-white">
 	              	
 	                <td class="text-center"><?=$application['fullname'];?></td>
 	                <td class="text-center"><?=$application['category'];?></td>
