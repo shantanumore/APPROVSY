@@ -15,7 +15,7 @@
   <div class="container-fluid row">
     <!-- List of Internships -->
     <?php while($internship = mysqli_fetch_assoc($internships)): ?>
-    <div class="col-md-6 " >
+    <div class="col-md-6 " style="margin-bottom:30px;" >
       <div class="card" style="border-radius: 19px;" >
         <div class="card-header text-white" style="background-color: #ffffff; border-radius: 19px 19px 0px 0px;  ">
          <h2 class="p-2 text-center card-title" style="font-family: 'Quicksand', sans-serif;font-size:30px; font-weight:bold ; color:#8D47B9;"><b><?=$internship['nameOfCompany'];?></b></h2>
@@ -42,7 +42,7 @@
             </tbody>
           </table>
         </div>
-        <div class="card-footer" style="border-top-color: #ffffff;">
+        <div class="card-footer" style="border-top-color: #ffffff; ">
           <a href="internship.php?internship=<?=$internship['id'];?>" class="btn btn-success " style="background: none;
     border: none;
     font-family: 'Quicksand', sans-serif;
@@ -55,10 +55,10 @@
     box-shadow: 0px 4px 30px rgba(223, 45, 70, 0.35);
     color: #fff;" >View Details</a>
         </div>
-      </div>
-    </div>
+      </div >
+    </div >
     <?php endwhile;?>
-  </div>
-  <br>
+  </div >
+  <br><br><br><br><br><br><br><br><br><br><br>
 </main>
 </div>
