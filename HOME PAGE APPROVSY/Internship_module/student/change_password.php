@@ -33,7 +33,7 @@
 	
 	$email = $_SESSION['email'];
 	if(isset($_POST['update_password'])){
-		$ip = getIp();
+		// $ip = getIp();
 		$current_password = $_POST['current'];
 		$new_password = $_POST['new'];
 		$confirm_password = $_POST['confirm'];

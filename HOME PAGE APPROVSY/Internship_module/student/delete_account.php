@@ -9,7 +9,7 @@
 		<div class="card-body">
 			<div class="container-fluid">
 				<div class="">
-					<p class="lead text-center">You won't be able to reap the benefits of offers and discounts on our products anymore. Do you really want to delete your account
+					<p class="lead text-center">You won't be able to restore the account.Do you really want to delete your account
 				</div>
 				<form class="p-3 grey-text" method="post" action="" enctype="multipart/form-data">
 					<div class="text-center mt-4 float-left">
@@ -26,7 +26,7 @@
 <?php
 	$email = $_SESSION['email'];
 	if(isset($_POST['yes'])){
-		$ip = getIp();
+		// $ip = getIp();
 		$delete_customer = "DELETE FROM customers WHERE email = '$email'";
 		$run_delete = $db->query($delete_customer);
 		echo "<script>alert('Your account has been deleted successfully!')</script>";

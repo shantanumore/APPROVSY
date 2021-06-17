@@ -79,7 +79,7 @@
 
 <?php
 	if(isset($_POST['update'])){
-		$ip = getIp();
+		// $ip = getIp();
 		$customer_id = $cus_id;
 		$fullname = $_POST['fullname'];
 		$email = $_POST['email'];
